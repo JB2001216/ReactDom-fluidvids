@@ -12,7 +12,7 @@ var FluidVid = React.createClass({
     var height = this.props.height || 900;
 
     var ratio = {
-      paddingTop: this.getRatio(width, height)
+      paddingTop: this.getRatio(this.props.width, this.props.height)
     };
 
     return (
